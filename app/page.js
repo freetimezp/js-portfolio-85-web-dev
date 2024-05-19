@@ -5,6 +5,7 @@ import { FiDownload } from "react-icons/fi";
 
 import Socials from "@/components/Socials";
 import Photo from "@/components/Photo";
+import Stats from "@/components/Stats";
 
 export default function Home() {
   return (
@@ -34,7 +35,6 @@ export default function Home() {
                   iconStyles="w-9 h-9 border border-accent rounded-full flex items-center
                     justify-center text-accent text-base duration-500 hover:bg-accent
                     hover:text-primary"
-
                 />
               </div>
             </div>
@@ -45,6 +45,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <Stats />
     </section>
   );
 }
